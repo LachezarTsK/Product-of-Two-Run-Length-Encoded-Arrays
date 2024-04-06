@@ -7,10 +7,10 @@ public class Solution
     public IList<IList<int>> FindRLEArray(int[][] firstInputEncoded, int[][] secondInputEncoded)
     {
 
-        return calculateProductBetweenBothInputs(firstInputEncoded, secondInputEncoded);
+        return CalculateProductBetweenBothInputs(firstInputEncoded, secondInputEncoded);
     }
 
-    private IList<IList<int>> calculateProductBetweenBothInputs(int[][] firstInputEncoded, int[][] secondInputEncoded)
+    private IList<IList<int>> CalculateProductBetweenBothInputs(int[][] firstInputEncoded, int[][] secondInputEncoded)
     {
         int firstInputIndex = 0;
         int secondInputIndex = 0;
